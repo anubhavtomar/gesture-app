@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">gesture-app</string>
+    <string name="record_button">Start Recording</string>
+    <string name="recrding_name">Audio Sample Name</string>
+</resources>

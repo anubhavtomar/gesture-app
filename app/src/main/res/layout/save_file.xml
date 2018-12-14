@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                                             android:layout_height="match_parent">
+
+    <EditText
+            android:id="@+id/sampleName"
+            android:layout_width="346dp"
+            android:layout_height="47dp"
+            android:autoText="false"
+            android:ems="10"
+            android:hint="@string/recrding_name"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="24dp" android:layout_marginLeft="24dp" android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp" android:layout_marginRight="24dp"/>
+
+    <ImageButton
+            android:id="@+id/stopRcrd"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:background="@android:color/background_light"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sampleName"
+            tools:srcCompat="@mipmap/ic_launcher"
+            android:layout_marginLeft="24dp" android:layout_marginStart="24dp" android:layout_marginTop="32dp"/>
+
+    <ImageButton
+            android:id="@+id/startRcrd"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:background="#ffffff"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sampleName"
+            tools:srcCompat="@android:drawable/ic_input_add"
+            android:layout_marginEnd="24dp" android:layout_marginRight="24dp" android:layout_marginTop="32dp"/>
+
+</android.support.constraint.ConstraintLayout>

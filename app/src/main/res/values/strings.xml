@@ -4,5 +4,19 @@
     <string name="recrding_name">Audio Sample Name</string>
     <string name="app_title">Sound Gesture</string>
     <string name="detect_gesture">Detect Gesture</string>
-    <string name="detect_start">Start</string>
+    <string name="detect_start">Detect Gesture</string>
+    <string name="title_activity_drawer">Drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="record_sample">Record Sample</string>
+    <string name="collect_sample">Collect Sample</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cancel">Cancel</string>
 </resources>

@@ -65,7 +65,7 @@ class Dashboard : AppCompatActivity() {
                     val snack = Snackbar.make(findViewById(R.id.root) , "Upload Start" , Snackbar.LENGTH_LONG).setDuration(80)
                     snack.show()
                     fileUploader(findViewById(R.id.loader), findViewById(R.id.root), fileName, File("${externalCacheDir.absolutePath}/${fileName}")).execute(); }
-                    sampleName.setText("")
+//                    sampleName.setText("")
             } else {
                 val snack = Snackbar.make(findViewById(R.id.root) , "Sample name is important" , Snackbar.LENGTH_LONG).setDuration(80)
                 snack.show()

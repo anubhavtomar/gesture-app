@@ -5,36 +5,38 @@
 
     <EditText
             android:id="@+id/sampleName"
-            android:layout_width="346dp"
-            android:layout_height="47dp"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
             android:autoText="false"
             android:ems="10"
             android:hint="@string/recrding_name"
             android:inputType="textPersonName"
-            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            android:layout_marginTop="24dp" android:layout_marginLeft="24dp" android:layout_marginStart="24dp"
-            android:layout_marginEnd="24dp" android:layout_marginRight="24dp"/>
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
 
     <ImageButton
             android:id="@+id/stopRcrd"
-            android:layout_width="100dp"
+            android:layout_width="120dp"
             android:layout_height="50dp"
-            android:background="@android:color/background_light"
+            android:background="@color/colorPrimaryDark"
             app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="44dp"
             app:layout_constraintTop_toBottomOf="@+id/sampleName"
-            tools:srcCompat="@mipmap/ic_launcher"
-            android:layout_marginLeft="24dp" android:layout_marginStart="24dp" android:layout_marginTop="32dp"/>
+            android:contentDescription="@string/cancel" android:src="@android:drawable/ic_delete"
+            tools:src="@android:drawable/ic_delete"
+    />
 
     <ImageButton
             android:id="@+id/startRcrd"
-            android:layout_width="100dp"
+            android:layout_width="120dp"
             android:layout_height="50dp"
-            android:background="#ffffff"
+            android:background="@color/colorPrimaryDark"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/sampleName"
             tools:srcCompat="@android:drawable/ic_input_add"
-            android:layout_marginEnd="24dp" android:layout_marginRight="24dp" android:layout_marginTop="32dp"/>
+            android:layout_marginTop="44dp"
+            android:src="@android:drawable/ic_input_add" tools:src="@android:drawable/ic_input_add"
+            android:contentDescription="@android:string/VideoView_error_button"/>
 
 </android.support.constraint.ConstraintLayout>
